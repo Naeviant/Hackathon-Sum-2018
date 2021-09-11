@@ -1,0 +1,8 @@
+/* Invalid Preferences */
+.question-wrapper {
+    transition: background-color 0.5s ease;
+}
+
+.invalid-wrapper {
+    background-color: #ffcdd2;
+}

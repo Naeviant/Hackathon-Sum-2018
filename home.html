@@ -1,0 +1,193 @@
+<!-- Define HTML -->
+<!DOCTYPE html>
+<html>
+    <head>
+        <!-- Headers -->
+        <title>Day Planner: Home</title>
+        <link rel="shortcut icon" href="static/img/logo.png">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0-alpha.3/css/materialize.min.css">
+        <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+        <link rel="stylesheet" href="static/css/style.css">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.0/jquery.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0-alpha.3/js/materialize.min.js"></script>
+    </head>
+    <body class="teal lighten-3">
+        <!-- Content -->
+        <div class="container" style="padding: 35px 0;">
+            <div class="row">
+                <!-- Sidebar -->
+                <div class="col s3 center">
+                    <div class="card teal darken-4">
+                        <div class="card-content">
+                            <!-- Logo -->
+                            <img class="responsive-img" src="static/img/logo.png">
+                            <!-- Title -->
+                            <h2 class="white-text text-darken-4">Day Planner</h2>
+                        </div>
+                    </div>
+                    <div class="card teal darken-4">
+                        <div class="card-content">
+                            <!-- Generate Button -->
+                            <a id="generate" class="white-text" href="#!">
+                                <div class="row" style="margin: 0;">
+                                    <div class="col s12">
+                                        <i class="material-icons medium left">edit</i>
+                                        <h5>Generate</h5>
+                                    </div>
+                                </div>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="card teal darken-4">
+                        <div class="card-content">
+                            <!-- Refresh Button -->
+                            <a id="refresh" class="white-text" href="#!">
+                                <div class="row" style="margin: 0;">
+                                    <div class="col s12">
+                                        <i class="material-icons medium left">cached</i>
+                                        <h5>Update</h5>
+                                    </div>
+                                </div>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="card teal darken-4">
+                        <div class="card-content">
+                            <!-- Preferences Button -->
+                            <a id="preferences" class="white-text" href="preferences.html">
+                                <div class="row" style="margin: 0;">
+                                    <div class="col s12">
+                                        <i class="material-icons medium left">settings</i>
+                                        <h5>Preferences</h5>
+                                    </div>
+                                </div>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <!-- Main Content -->
+                <div class="col s9">
+                    <div class="card">
+                        <div class="card-content">
+                            <div class="row" style="margin: 0;">
+                                <div class="col s1 center">
+                                    <!-- Event Icon -->
+                                    <i class="material-icons medium">flag</i>
+                                </div>
+                                <div class="col s11">
+                                    <!-- Event Text -->
+                                    <span class="card-title activator grey-text text-darken-4">Sample Event 1<i class="material-icons right">more_vert</i></span>
+                                    <p><a href="#!" class="teal-text text-darken-2"><i class="material-icons" style="margin-right: 10px; position: relative; top: 6px;">call_made</i>Visit Website</a></p>
+                                    <p><a href="#!" class="teal-text text-darken-2"><i class="material-icons" style="margin-right: 10px; position: relative; top: 6px;">location_on</i>View on Maps</a></p>
+                                    <p><a href="#!" class="teal-text text-darken-2"><i class="material-icons" style="margin-right: 10px; position: relative; top: 6px;">not_interested</i>Not Interested</a></p>
+                                    <span class="grey-text text-darken-4 right"><i class="material-icons" style="margin-right: 10px; position: relative; top: 6px;">schedule</i>09:00</span>
+                                </div>
+                            </div>
+                            
+                        </div>
+                        <div class="card-reveal">
+                            <!-- Event Description Title -->
+                            <span class="card-title grey-text text-darken-4">Sample Event 1<i class="material-icons right">close</i></span>
+                            <!-- Event Description Text -->
+                            <p>
+                                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut condimentum nibh dui, non euismod orci pulvinar et. Nam ultrices, tellus quis accumsan facilisis, magna mi porta dui, at consequat augue sem non velit. Duis sit amet nibh pulvinar, gravida sapien in, suscipit nisi. Phasellus finibus enim ligula, quis auctor nisi commodo vitae. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.
+                            </p>
+                            <p>
+                                Curabitur egestas est ac mauris tempus egestas. Maecenas faucibus mi eget molestie imperdiet. Aliquam eu purus vel nulla porttitor finibus. Cras turpis tortor, mattis quis feugiat vitae, fermentum vitae est. Nullam at mi rutrum risus sagittis facilisis at et purus. Cras convallis justo nisl, sit amet iaculis lacus posuere nec.
+                            </p>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <div class="card-content">
+                            <div class="row" style="margin: 0;">
+                                <div class="col s1 center">
+                                    <!-- Event Icon -->
+                                    <i class="material-icons medium">golf_course</i>
+                                </div>
+                                <div class="col s11">
+                                    <!-- Event Text -->
+                                    <span class="card-title activator grey-text text-darken-4">Sample Event 2<i class="material-icons right">more_vert</i></span>
+                                    <p><a href="#!" class="teal-text text-darken-2"><i class="material-icons" style="margin-right: 10px; position: relative; top: 6px;">call_made</i>Visit Website</a></p>
+                                    <p><a href="#!" class="teal-text text-darken-2"><i class="material-icons" style="margin-right: 10px; position: relative; top: 6px;">location_on</i>View on Maps</a></p>
+                                    <p><a href="#!" class="teal-text text-darken-2"><i class="material-icons" style="margin-right: 10px; position: relative; top: 6px;">not_interested</i>Not Interested</a></p>
+                                    <span class="grey-text text-darken-4 right"><i class="material-icons" style="margin-right: 10px; position: relative; top: 6px;">schedule</i>11:00</span>
+                                </div>
+                            </div>
+                            
+                        </div>
+                        <div class="card-reveal">
+                            <!-- Event Description Title -->
+                            <span class="card-title grey-text text-darken-4">Sample Event 2<i class="material-icons right">close</i></span>
+                            <!-- Event Description Text -->
+                            <p>
+                                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut condimentum nibh dui, non euismod orci pulvinar et. Nam ultrices, tellus quis accumsan facilisis, magna mi porta dui, at consequat augue sem non velit. Duis sit amet nibh pulvinar, gravida sapien in, suscipit nisi. Phasellus finibus enim ligula, quis auctor nisi commodo vitae. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.
+                            </p>
+                            <p>
+                                Curabitur egestas est ac mauris tempus egestas. Maecenas faucibus mi eget molestie imperdiet. Aliquam eu purus vel nulla porttitor finibus. Cras turpis tortor, mattis quis feugiat vitae, fermentum vitae est. Nullam at mi rutrum risus sagittis facilisis at et purus. Cras convallis justo nisl, sit amet iaculis lacus posuere nec.
+                            </p>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <div class="card-content">
+                            <div class="row" style="margin: 0;">
+                                <div class="col s1 center">
+                                    <!-- Event Icon -->
+                                    <i class="material-icons medium">directions_bus</i>
+                                </div>
+                                <div class="col s11">
+                                    <!-- Event Text -->
+                                    <span class="card-title activator grey-text text-darken-4">Bus Link: 409<i class="material-icons right">more_vert</i></span>
+                                    <p><a href="#!" class="teal-text text-darken-2"><i class="material-icons" style="margin-right: 10px; position: relative; top: 6px;">location_on</i>View on Maps</a></p>
+                                    <span class="grey-text text-darken-4 right"><i class="material-icons" style="margin-right: 10px; position: relative; top: 6px;">schedule</i>12:30</span>
+                                </div>
+                            </div>
+                            
+                        </div>
+                        <div class="card-reveal">
+                            <!-- Event Description Title -->
+                            <span class="card-title grey-text text-darken-4">Bus Link: 409<i class="material-icons right">close</i></span>
+                            <!-- Event Description Text -->
+                            <p>
+                                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut condimentum nibh dui, non euismod orci pulvinar et. Nam ultrices, tellus quis accumsan facilisis, magna mi porta dui, at consequat augue sem non velit. Duis sit amet nibh pulvinar, gravida sapien in, suscipit nisi. Phasellus finibus enim ligula, quis auctor nisi commodo vitae. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.
+                            </p>
+                            <p>
+                                Curabitur egestas est ac mauris tempus egestas. Maecenas faucibus mi eget molestie imperdiet. Aliquam eu purus vel nulla porttitor finibus. Cras turpis tortor, mattis quis feugiat vitae, fermentum vitae est. Nullam at mi rutrum risus sagittis facilisis at et purus. Cras convallis justo nisl, sit amet iaculis lacus posuere nec.
+                            </p>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <div class="card-content">
+                            <div class="row" style="margin: 0;">
+                                <div class="col s1 center">
+                                    <!-- Event Icon -->
+                                    <i class="material-icons medium">free_breakfast</i>
+                                </div>
+                                <div class="col s11">
+                                    <!-- Event Text -->
+                                    <span class="card-title activator grey-text text-darken-4">Sample Event 3<i class="material-icons right">more_vert</i></span>
+                                    <p><a href="#!" class="teal-text text-darken-2"><i class="material-icons" style="margin-right: 10px; position: relative; top: 6px;">call_made</i>Visit Website</a></p>
+                                    <p><a href="#!" class="teal-text text-darken-2"><i class="material-icons" style="margin-right: 10px; position: relative; top: 6px;">location_on</i>View on Maps</a></p>
+                                    <p><a href="#!" class="teal-text text-darken-2"><i class="material-icons" style="margin-right: 10px; position: relative; top: 6px;">not_interested</i>Not Interested</a></p>
+                                    <span class="grey-text text-darken-4 right"><i class="material-icons" style="margin-right: 10px; position: relative; top: 6px;">schedule</i>13:00</span>
+                                </div>
+                            </div>
+                            
+                        </div>
+                        <div class="card-reveal">
+                            <!-- Event Description Title -->
+                            <span class="card-title grey-text text-darken-4">Sample Event 3<i class="material-icons right">close</i></span>
+                            <!-- Event Description Text -->
+                            <p>
+                                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut condimentum nibh dui, non euismod orci pulvinar et. Nam ultrices, tellus quis accumsan facilisis, magna mi porta dui, at consequat augue sem non velit. Duis sit amet nibh pulvinar, gravida sapien in, suscipit nisi. Phasellus finibus enim ligula, quis auctor nisi commodo vitae. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.
+                            </p>
+                            <p>
+                                Curabitur egestas est ac mauris tempus egestas. Maecenas faucibus mi eget molestie imperdiet. Aliquam eu purus vel nulla porttitor finibus. Cras turpis tortor, mattis quis feugiat vitae, fermentum vitae est. Nullam at mi rutrum risus sagittis facilisis at et purus. Cras convallis justo nisl, sit amet iaculis lacus posuere nec.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <script src="static/js/plan.js" type="text/javascript"></script>
+    </body>
+</html>
